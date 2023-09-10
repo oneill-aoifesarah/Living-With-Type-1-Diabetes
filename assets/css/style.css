@@ -28,6 +28,10 @@ header {
     box-shadow: 0 3px 2px #141f24;
     
 }
+header a {
+    text-decoration: none;
+    color: inherit;
+}
 
 h1 {
     font-family: 'poppins', sans-serif;
@@ -37,7 +41,18 @@ h1 {
     letter-spacing: 2px;
     color: #141f24;
 }
+#menu {
+    font-size: medium;
+    letter-spacing: 2px;
+    list-style-type: none;
+}
+#menu > li {
+    margin-bottom: 0.5em;
+}
 
+.active {
+    border-bottom: 1px #141f24;
+}
 /* Main content */
 main {
     background-color: #f2f2f2;
