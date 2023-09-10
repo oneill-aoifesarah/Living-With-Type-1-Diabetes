@@ -8,14 +8,35 @@
     box-sizing: border-box;
 }
 
+/* General styles*/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    /* General project styles */
+    color: #141f24;
+    font-family: 'nunito sans', sans-serif;
+}
+
 /* Header */
 header {
     background-color: #c8d8e4;
 }
 
+h1 {
+    font-family: 'poppins', sans-serif;
+    text-align: center;
+    text-transform: none;
+    font-size: large;
+    letter-spacing: 2px;
+    color: #141f24;
+}
+
 /* Main content */
 main {
     background-color: #f2f2f2;
+    /* Make the main element take up excess space so as to push footer down */
+    flex: 1 0 auto;
 }
 
 /* Footer */
