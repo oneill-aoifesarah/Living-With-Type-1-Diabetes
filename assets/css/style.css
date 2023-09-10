@@ -53,6 +53,18 @@ h1 {
 .active {
     border-bottom: 1px #141f24;
 }
+
+/* Navbar styles with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #c8d8e4;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 3px 3px #141f24;
+    display: none;
+}
+
 /* Main content */
 main {
     background-color: #f2f2f2;
